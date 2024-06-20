@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import CodeMirror from '@uiw/react-codemirror';
 import '@uiw/react-codemirror/dist/codemirror.css';
 import '@uiw/react-codemirror/dist/theme/material.css';
-import 'codemirror/mode/javascript/javascript';
+import '@uiw/react-codemirror/dist/mode/javascript/javascript';
 
 const CodeEditor = () => {
   const [code, setCode] = useState('// Write your JavaScript code here\n');
