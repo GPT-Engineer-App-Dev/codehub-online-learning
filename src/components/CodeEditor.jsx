@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import CodeMirror from '@uiw/react-codemirror';
-import '@uiw/react-codemirror/dist/codemirror.css';
+import 'codemirror/lib/codemirror.css';
 import 'codemirror/theme/material.css';
 import 'codemirror/mode/javascript/javascript';
 
