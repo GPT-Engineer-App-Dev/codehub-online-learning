@@ -17,6 +17,11 @@ const Index = () => {
               Browse Courses
             </Button>
           </Link>
+          <Link to="/code-editor">
+            <Button leftIcon={<FaCode />} colorScheme="teal" variant="solid" size="lg" ml={2}>
+              Code Editor
+            </Button>
+          </Link>
         </Box>
         <Box mt={8}>
           <Image src="/images/learning-platform.png" alt="Learning Platform" borderRadius="md" />
