@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import CodeMirror from '@uiw/react-codemirror';
 import '@uiw/react-codemirror/dist/codemirror.css';
-import 'codemirror/theme/material.css';
+import '@uiw/react-codemirror/dist/theme/material.css';
 import 'codemirror/mode/javascript/javascript';
 
 const CodeEditor = () => {
